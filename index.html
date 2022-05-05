@@ -2,32 +2,55 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
-    <link rel="icon" href="images/logo.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Home</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <img id="logo" src="images/logo.png">
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Men</a></li>
-            <li><a href="#">Women</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Account</a></li>
-            <li><a href="#"><img id="cart" src="images/cart.png"></a></li>
-        </ul>
-    </nav>
+  <img id="logo" src="images/logo.png">
+  <!-- Navbar code starts here -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Men
+          <i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-menu">
+          <a href="#">T-Shirts</a>
+          <a href="#">Polo Shirts</a>
+          <a href="#">Button-Down Shirts</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Women
+          <i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-menu">
+          <a href="#">T-Shirts</a>
+          <a href="#">Polo Shirts</a>
+          <a href="#">Button-Down Shirts</a>
+        </div>
+      </li>
+      <li><a href="#">Contact Us</a></li>
+      <li>
+        <a href="#"><i class='fas fa-user-circle' style='font-size:20px'></i></a></li>
+      <li>
+        <a href="#"><i class="fas fa-shopping-cart" style="font-size:20px"></i></a></li>
 
+    </ul>
+  </nav>
+  <!-- Navbar code ends here -->
 
 </body>
 
