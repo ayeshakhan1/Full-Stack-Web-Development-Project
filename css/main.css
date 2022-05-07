@@ -93,17 +93,32 @@ li.dropdown {
 }
 
 /* Navbar code ends here */
+.slider{
+  position: relative;
+  line-height: 0px;
 
-.search{
-  padding: 5px 20px 5px 0px;
-  float: right;
 }
+.search{
+  float: right;
+  position: absolute;
+  bottom: 580px;
+  padding-left: 1150px;
+  background: none;
+}
+
+.search-icon{
+  background: none;
+  font-size: 22px;
+  color:#545454;
+}
+
+
 .search-field{
   padding: 5px;
   width: 300px;
-  border-color: #0a0a0a;
+  border-color:#545454;
   background-color: transparent;
-  color:#fff;
+  color:#000;
   border-radius: 10px;
 }
 
@@ -115,25 +130,67 @@ input.search-field:focus{
 }
 
 .section-below-slider{
+  background-color: #171717;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #b8b8b8;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.section-below-slider button{
+  border: 3px solid #040406;
+  background: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #828282;
+  width: 350px;
+  height: 350px;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.section-below-slider button:hover{
+  background-color: #040406;
+  transition: all 0.5s ease-in-out;
+}
+
+.featured-text{
   padding-top: 80px;
+  padding-bottom: 40px;
   text-align: center;
   color: #b8b8b8;
   text-transform: capitalize;
 }
 
-.new-arrivals {
-  display: flex;
-  flex-direction: row;
-  background-color: #141414;
+.featured-clothes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px;
+  padding: 10px;
+  background-color: none;
   justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: #b8b8b8;
+  padding: 50px 50px;
+}
+
+.featured-clothes div{
+  float: left;
+  margin-left: 20px;
+  background-color: #171717;
+  line-height: 30px;
+  padding: 8px;
+}
+
+.featured-clothes div button{
+  background: none;
+  border: none;
+  cursor: pointer;
+
 }
 
 
-.new-arrivals > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
+
